@@ -1,0 +1,18 @@
+:root{--bg:#f6f7fb;--card:#ffffff;--accent:#2563eb;--muted:#6b7280}
+*{box-sizing:border-box}
+body{font-family:Inter,Segoe UI,Roboto,Arial,sans-serif;background:var(--bg);margin:0;padding:24px}
+.app{max-width:1000px;margin:0 auto;background:var(--card);padding:20px;border-radius:12px;box-shadow:0 8px 30px rgba(15,23,42,.06)}
+.app-header{display:flex;align-items:center;justify-content:space-between;gap:12px}
+.app-header h1{margin:0;font-size:20px}
+.tools{display:flex;gap:8px;align-items:center}
+.tools input{padding:8px;border-radius:8px;border:1px solid #e6e7ea}
+.book-form{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}
+.book-form input{padding:10px;border-radius:8px;border:1px solid #e6e7ea}
+.book-form button{padding:10px 12px;border-radius:8px;border:0;background:var(--accent);color:#fff}
+.hidden{display:none}
+.list{margin-top:16px}
+table{width:100%;border-collapse:collapse}
+th,td{padding:10px;border-bottom:1px solid #f1f1f1;text-align:left}
+.action{margin-right:6px;padding:6px 8px;border-radius:6px;border:0;background:#efefef}
+.toast{position:fixed;right:16px;bottom:16px;background:#111827;color:#fff;padding:8px 12px;border-radius:8px;opacity:0;transform:translateY(8px);transition:all .18s}
+.toast.show{opacity:1;transform:translateY(0)}
